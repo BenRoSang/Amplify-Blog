@@ -6,6 +6,7 @@ import { listPosts } from '../../../queries'
 const Blog = () => {
   const posts = useLoaderData();
   const [postWithImage, setPostWithImage] = useState([]);
+  
   useEffect(() => {
     getImageFun();
   }, [])
@@ -21,6 +22,8 @@ const Blog = () => {
     )
     setPostWithImage(postWith);
   }
+
+  console.log(postWithImage);
   
 
   const renderPost = postWithImage.map((post, index) => (

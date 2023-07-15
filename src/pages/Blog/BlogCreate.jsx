@@ -13,7 +13,7 @@ function BlogCreate() {
     const uploadFile = e.target.files[0]
     if(!uploadFile) return
     setImage(uploadFile)
-    console.log(uploadFile)
+    
   }
   
 

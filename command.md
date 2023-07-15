@@ -17,3 +17,6 @@ export default defineConfig({
 });
 
 ## Amplify add auth to add authentication 
+
+## Adding in Schema.graphql comment table
+## Amplify push After updaing API Schema.graphql
